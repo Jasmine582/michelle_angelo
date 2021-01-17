@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Michelle Angelo | Author</title>
+    <!--Google Fonts-->
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Rufina:wght@400;700&display=swap" rel="stylesheet">
+<!--Font Awesome-->
+<script src="https://kit.fontawesome.com/4c38177798.js" crossorigin="anonymous"></script>
+ <link rel="stylesheet" href="../css/normalize.css">
+  <link rel="stylesheet" href="../css/main.css">
+</head>
+
+<body>
+
+  <header>
+    <div class="wrapper">
+      <h1><span>M</span>ichelle  <span>A</span> ngelo</h1>
+      <div id="mySidebar" class="sidebar">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+      <a href="../">Home</a>
+      <a href="../podcast/">Podcast</a>
+      <a href="../blog/">Blog</a>
+      <a href="https://www.amazon.com" target="_blank">Purchase Book</a>
+     </div>
+     <div id="main">
+      <button class="openbtn" onclick="openNav()">☰</button>  
+     </div>
+   </div><!--end of wrapper-->
+
+  </header>
+    <main>
+    <section id="author">
+        <h2>About Michelle Angelo</h2>
+        <div class="divder"></div>
+        <div class="split">
+            <div>
+                <img src="/img/author.png" alt="author-photo">
+              </div>
+             <div class="left-item">
+              <p> <span>Michelle Angelo</span> grew up being a military brat in the central part of Texas, in the town of Killeen. Following the footsteps of her parents, she enlisted in the United States Army to serve her country after graduating from high school shortly after 9/11. During her nine-year career enlistment, she had multiple deployments; one of which, was to Iraq. She went on to continue serving her country as a government contractor where she worked overseas in Afghanistan for over seven years.</p><!--added br-->
+                <p>Growing tired of the constant separation and her family suffering from an emotional impact due to her absence, she decided to quit contracting overseas and return home to be with her family and to focus on her writing career. Writing initially began as a hobby for Michelle that later became a journey that served as a coping mechanism from a rough breakup. She would often describe writing as being her “happy place” and a way to escape feeling despondent. 
+                She quoted, “Some write because no one listens, some write because it sets their hearts free while others write for the pure enjoyment of imagination”. She enjoys writing urban literature and looks forward to publishing more books in the future.</p><!--added br-->
+               <p>Michelle now lives in the Kansas City area. She is a proud mother of two beautiful daughters and a wife of a very supportive husband.
+              </p>
+            </div>
+        </div><!--end split-->
+      </section> 
+    </main>
+   
+    <footer id="author-footer">
+      <div class="copyright">
+       <p id="begin"><a href="#top">Back to Top</a></p>
+       <p>&copy; Copyright <script>document.write(new Date().getFullYear())</script> | Michelle Angelo | Do Not Sell My Personal Information <br>
+        Designed &amp; Developed with <a href= "mailto:hello@jasminecreese.com?subject=Website%20Inquiry" target ="_blank"><i class="far fa-heart"></i></a></p>
+      </div>
+    </footer>
+    <script>
+      function openNav() {
+      document.getElementById("mySidebar").style.width = "375px";
+      document.getElementById("main").style.marginLeft = "0";
+      }
+  
+     function closeNav() {
+     document.getElementById("mySidebar").style.width = "0";
+     document.getElementById("main").style.marginLeft= "0";
+      }
+    </script>
+</body>
+</html>
