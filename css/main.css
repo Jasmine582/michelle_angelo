@@ -770,7 +770,7 @@ button {
     }
     
      #author img {
-     box-shadow: 4rem 4.5rem 2.625rem rgba(255, 182, 193, 0.85);
+     /*box-shadow: 4rem 4.5rem 2.625rem rgba(255, 182, 193, 0.85);*/
      margin-left: 7em;
      width: 89em;
 
