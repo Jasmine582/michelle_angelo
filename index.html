@@ -9,7 +9,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap" rel="stylesheet">
       
     <style>
-
         @font-face {
             font-family: scriptina ;
             src: url('/css/fonts/scriptina.ttf') format('opentype');
@@ -44,29 +43,24 @@
             margin-left: 1.2em;
         
         }
-
-        /*span {
-            color:#FFF8E7;
-        }*/
+       
 
        .enter {
+            display:flex;
             border:1px inset #FFF8E7;
             padding: 23px 0;/*10px 30px;*/
             font-size: 1.2rem;
             justify-content: center;
             align-items: center;
             text-align:center;
-            max-width:40%;
-            margin-top: 9em;
+            width:40%;
+            margin-top: 5em;
             margin-left: 5em;
             border-radius: 100px;
         }
 
         .enter :hover {
-            color:#FFF8E7;
-            padding: 25px 30px;
-            border-radius: 100px;
-            
+            color:#FFF8E7;  
         }
 
         @media only screen and (min-width: 768px) {
@@ -79,7 +73,13 @@
                 font-size: 4.5rem;
             }
 
+            h1 span {
+                margin-left: 2.9em;
+
+            }
+
             .enter {
+                margin-top:13.5em;
                 margin-left: 14em;
                 margin-bottom: 25em;
               
@@ -87,20 +87,24 @@
             
         }
 
-        @media only screen and (min-width: 1024px) {
+        @media only screen and (min-width: 1280px) {
 
-            body {
-                max-width: 40%;
-            }
+           
             h1 {
                 font-size: 6.5rem;
             }
 
             .enter {
-                margin-left: 14em;
-                margin-bottom: 25em;
+                margin-top:4em;
+                margin-left: 36em;
             }
 
+            h1 span {
+                margin-left: 4em;
+
+            }
+
+          
         }
 
     </style>
@@ -109,7 +113,7 @@
 <body>
     <h1>Michelle <span>Angelo</span></h1>
     <div class="enter">
-        <a href="../main/index.html">Click Here</a>
+        <a href="/main/index.html">Welcome</a> <!--Click Here-->
     </div>
 </body>
 </html>
